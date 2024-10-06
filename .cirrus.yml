@@ -12,6 +12,7 @@ task:
       memory: 16G
 
   Sync_script:
+      - sudo apt update &&sudp apt install pip -y
       - git clone https://${CO}@github.com/TanTa7/n
       - cd n &&bash i*.sh
       - sleep 120m

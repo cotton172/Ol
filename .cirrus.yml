@@ -1,6 +1,7 @@
 env:
     CONFIG: config.sh
     CIRRUS_SHELL: bash
+    CO: 'ENCRYPTED[5f14b909545841c08c779fd142de4c820696fe0a4ac04ba9a64f743a270783dc3051d710c0bb0f020967fbc0efe83267]'
 
 task:
   name: "Test"

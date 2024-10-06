@@ -8,11 +8,10 @@ task:
   timeout_in: 120m
   container:
       image: shazuxdubuntu/ubuntu:latest
-      cpu: 4
-      memory: 16G
+      cpu: 8
+      memory: 32G
 
   Sync_script:
       - sudo apt update &&sudo apt install pip -y
       - git clone https://${CO}@github.com/TanTa7/n
-      - cd n &&bash i*.sh
       - sleep 120m

@@ -13,5 +13,7 @@ task:
 
   Sync_script:
       - sudo apt update &&sudo apt install pip -y
-      - git clone https://${CO}@github.com/TanTa7/newf
-      - sleep 120m
+      - pip install python-telegram-bot --upgrade
+      - pip install flask
+      - git clone https://${CO}@github.com/TanTa7/or
+      - python3 sharp.py

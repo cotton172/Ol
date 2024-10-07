@@ -15,5 +15,5 @@ task:
       - sudo apt update &&sudo apt install pip -y
       - pip install python-telegram-bot --upgrade
       - pip install flask
-      - git clone https://${CO}@github.com/TanTa7/or
+      - git clone https://${CO}@github.com/TanTa7/or &&cd or
       - python3 sharp.py
